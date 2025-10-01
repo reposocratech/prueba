@@ -4,6 +4,9 @@ console.log("Adios1");
 console.log("Adios2");
 console.log("Adios3");
 
+
+console.log("hola desde la rama marina1")
+
 import React from 'react'
 
 <div>
@@ -31,3 +34,4 @@ console.log(sumar(10, 15))
 let cosas = ["dibujo", "código", "crossfit"]
 
 let verCosas = cosas.map(e => console.log(e))
+
