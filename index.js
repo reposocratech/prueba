@@ -35,3 +35,11 @@ let cosas = ["dibujo", "código", "crossfit"]
 
 let verCosas = cosas.map(e => console.log(e))
 
+console.log('tres tristes tigres');
+
+let season = '';
+let weather = '';
+
+if(season === 'otoño'){
+  weather = 'rainy';
+}
