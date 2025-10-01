@@ -15,3 +15,12 @@ console.log('soy Amanda')
 /* estamos dando una clase con Santi */
 console.log('vamos a subir una rama')
 
+
+const sumar = (a,b) => {
+    return a + b
+}
+console.log(sumar(10, 15))
+
+let cosas = ["dibujo", "código", "crossfit"]
+
+let verCosas = cosas.map(e => console.log(e))
