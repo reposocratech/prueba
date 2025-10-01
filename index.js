@@ -5,6 +5,7 @@ console.log("Adios2");
 console.log("Adios3");
 
 import React from 'react'
+
 <div>
 <h1>Bienvenid@s a mi app</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut sunt tempora itaque ab id odit, dolore mollitia provident in nostrum esse voluptate perferendis non necessitatibus, eligendi nesciunt laboriosam. Ab, nihil.</p>
@@ -19,6 +20,12 @@ console.log('vamos a subir una rama')
 const sumar = (a,b) => {
     return a + b
 }
+
+const suma = (x, y) => {
+  return x + y;
+}
+
+console.log(suma(4,2));
 console.log(sumar(10, 15))
 
 let cosas = ["dibujo", "código", "crossfit"]
